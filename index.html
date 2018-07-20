@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Blog</title>
+        <link rel="stylesheet" href="site.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <header>
+            <div class="logo-wrapper">
+                <img  class="logo" src="img/logo.png" alt="logo">
+            </div>
+
+            <div class="socialIcons-wrapper">
+                <ul class="socialIcons">
+                    <li><a href="#"><i class="fab fa-facebook"></i> </a></li>
+                    <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                    <li id="delimiter">|</li>
+                    <li class="search-container">
+                        <input type="text" placeholder="Search..">
+                        <button><i class="fa fa-search"></i></button>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-wrapper">
+                    <ul class="navbar">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Info</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+            </div>
+
+            <nav class="Hamb" role="navigation">
+                    <div id="menuToggle">
+    
+                      <input type="checkbox" />
+    
+                      <span></span>
+                      <span></span>
+                      <span></span>
+    
+                      <ul id="menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Info</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                    </div>
+        </nav>
+
+        </header>
+
+
+        
+        <div class="content">
+
+            <div class="main">
+                <div class="wrapper">
+                    <div class="post">
+                        
+                        <img src="https://habrastorage.org/webt/ch/uk/p8/chukp8kr1qorhytdni57chenwie.jpeg" alt="postPhoto">
+                        <h4 class="postTitle">Древности: Palm OS, эффективный код и отвратительные фото</h4>
+                        <p class="postContent">Там короче когда он первый раз включается (или батарейки сели), 
+                            надо типа откалибровать экран и выставить время с датой. Вот 
+                            это первый и последний тупак в Palm OS третьей версии. </p>
+                        <div class="postInfo">
+                            <span class="time"> 20:00</span>
+                            <span class="rate">42</span>
+                            <span class="comments">24</span>
+                        </div>
+                    </div>
+                
+                    <div class="post">
+                            
+                        <img src="https://habrastorage.org/webt/ef/zg/jq/efzgjq2rjx08zucjibrqib6r58k.jpeg" alt="postPhoto">
+                        <h4 class="postTitle">Неужели в самом деле все ГЛОНАССы погорели?</h4>
+                        <p class="postContent">Вам могли попадаться новости вроде «ГЛОНАСС перестал работать
+                             по всему миру» или жуткие истории «Порядка половины спутников действующей орбитальной 
+                             группировки „Глонасс“ выработали гарантийный срок.</p>
+                        <div class="postInfo">
+                            <span class="time"> 20:00</span>
+                            <span class="rate">42</span>
+                            <span class="comments">24</span>
+                        </div>
+                    </div>
+                    <div class="post">
+                        
+                        <img src="https://habrastorage.org/getpro/habr/post_images/bf1/8d9/7fa/bf18d97faec44e70ccef66b7c90ce938.jpg" alt="postPhoto">
+                        <h4 class="postTitle">Студента китайского вуза чуть не отчислили из-за низкого «социального рейтинга» его отца</h4>
+                        <p class="postContent">
+                                Вот уже несколько лет Китай внедряет систему оценки граждан по степени их 
+                                благонадежности (не обязательно политической, речь идет о кредитоспособности, 
+                                нарушениях общественного порядка и т.п.). Цель правительства — создать единый 
+                                социальный рейтинг для абсолютно всех граждан. </p>
+                        <div class="postInfo">
+                            <span class="time"> 20:00</span>
+                            <span class="rate">42</span>
+                            <span class="comments">24</span>
+                        </div>
+                    </div>
+                
+                    <div class="post">
+                            
+                        <img src="https://habrastorage.org/webt/nk/lv/yf/nklvyfdyfnfi1qugodvftzm4wb0.png" alt="postPhoto">
+                        <h4 class="postTitle">Устаревший код – сторонний код</h4>
+                        <p class="postContent">В TDD-сообществе существует совет, который говорит 
+                            о том, что мы не должны использовать mock-объекты для типов, которыми 
+                            не владеем. Я считаю, что это хороший совет, и стараюсь следовать ему.</p>
+                        <div class="postInfo">
+                            <span class="time"> 20:00</span>
+                            <span class="rate">42</span>
+                            <span class="comments">24</span>
+                        </div>
+                    </div>
+                    <div class="post">
+                            
+                            <img src="https://habrastorage.org/webt/8n/xj/gm/8nxjgmzsnwxzxr91nldwoeg70co.jpeg" alt="postPhoto">
+                            <h4 class="postTitle">OpenAI преодолела значительные ограничения в ИИ для игры в Dota 2</h4>
+                            <p class="postContent">ИИ для игры в Dota 2 от компании OpenAI нашумел в прошлом году, 
+                                когда обыграл топовых мировых игроков. Но только в матчах 1v1 и с кучей ограничений, 
+                                отчего не все воспринимали успех всерьез. </p>
+                            <div class="postInfo">
+                                <span class="time"> 20:00</span>
+                                <span class="rate">42</span>
+                                <span class="comments">24</span>
+                            </div>
+                    </div>
+                    <div class="post">
+                        
+                            <img src="https://habrastorage.org/webt/ch/uk/p8/chukp8kr1qorhytdni57chenwie.jpeg" alt="postPhoto">
+                            <h4 class="postTitle">Древности: Palm OS, эффективный код и отвратительные фото</h4>
+                            <p class="postContent">Там короче когда он первый раз включается (или батарейки сели), 
+                                надо типа откалибровать экран и выставить время с датой. Вот 
+                                это первый и последний тупак в Palm OS третьей версии. </p>
+                            <div class="postInfo">
+                                <span class="time"> 20:00</span>
+                                <span class="rate">42</span>
+                                <span class="comments">24</span>
+                            </div>
+                        </div>
+                    
+                        <div class="post">
+                                
+                            <img src="https://habrastorage.org/webt/ef/zg/jq/efzgjq2rjx08zucjibrqib6r58k.jpeg" alt="postPhoto">
+                            <h4 class="postTitle">Неужели в самом деле все ГЛОНАССы погорели?</h4>
+                            <p class="postContent">Вам могли попадаться новости вроде «ГЛОНАСС перестал работать
+                                 по всему миру» или жуткие истории «Порядка половины спутников действующей орбитальной 
+                                 группировки „Глонасс“ выработали гарантийный срок.</p>
+                            <div class="postInfo">
+                                <span class="time"> 20:00</span>
+                                <span class="rate">42</span>
+                                <span class="comments">24</span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            
+                            <img src="https://habrastorage.org/getpro/habr/post_images/bf1/8d9/7fa/bf18d97faec44e70ccef66b7c90ce938.jpg" alt="postPhoto">
+                            <h4 class="postTitle">Студента китайского вуза чуть не отчислили из-за низкого «социального рейтинга» его отца</h4>
+                            <p class="postContent">
+                                    Вот уже несколько лет Китай внедряет систему оценки граждан по степени их 
+                                    благонадежности (не обязательно политической, речь идет о кредитоспособности, 
+                                    нарушениях общественного порядка и т.п.). Цель правительства — создать единый 
+                                    социальный рейтинг для абсолютно всех граждан. </p>
+                            <div class="postInfo">
+                                <span class="time"> 20:00</span>
+                                <span class="rate">42</span>
+                                <span class="comments">24</span>
+                            </div>
+                        </div>
+                    
+                        <div class="post">
+                                
+                            <img src="https://habrastorage.org/webt/nk/lv/yf/nklvyfdyfnfi1qugodvftzm4wb0.png" alt="postPhoto">
+                            <h4 class="postTitle">Устаревший код – сторонний код</h4>
+                            <p class="postContent">В TDD-сообществе существует совет, который говорит 
+                                о том, что мы не должны использовать mock-объекты для типов, которыми 
+                                не владеем. Я считаю, что это хороший совет, и стараюсь следовать ему.</p>
+                            <div class="postInfo">
+                                <span class="time"> 20:00</span>
+                                <span class="rate">42</span>
+                                <span class="comments">24</span>
+                            </div>
+                        </div>
+                        <div class="post">
+                                
+                                <img src="https://habrastorage.org/webt/8n/xj/gm/8nxjgmzsnwxzxr91nldwoeg70co.jpeg" alt="postPhoto">
+                                <h4 class="postTitle">OpenAI преодолела значительные ограничения в ИИ для игры в Dota 2</h4>
+                                <p class="postContent">ИИ для игры в Dota 2 от компании OpenAI нашумел в прошлом году, 
+                                    когда обыграл топовых мировых игроков. Но только в матчах 1v1 и с кучей ограничений, 
+                                    отчего не все воспринимали успех всерьез. </p>
+                                <div class="postInfo">
+                                    <span class="time"> 20:00</span>
+                                    <span class="rate">42</span>
+                                    <span class="comments">24</span>
+                                </div>
+                        </div>
+                </div>
+            </div>
+            <div class="aside">
+                <div class="authorInfo">
+                    <img src="http://www.whatcausesbaldness.net/img/smart-looking-balding-man.jpg" alt="author">
+                    <div >
+                        <div class="description-wrapper">
+                            <span class="description"><b>Name</b></span>
+                            <span>Jacob</span>
+                        </div>
+                        <div class="description-wrapper">
+                            <span class="description"><b>Surname</b></span>
+                            <span>Barry</span>
+                        </div>
+                        <div class="description-wrapper">
+                            <span class="description"><b>Age</b></span>
+                            <span>35</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="asideSocialIcons">
+                    <ul class="socialIcons">
+                        <li><a href="#"><i class="fab fa-facebook"></i> </a></li>
+                        <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                    </ul>
+
+                </div>
+                <div class="subscribe">
+                    <div class="subscribeItem">
+                        <input type="text" placeholder="Name..">
+                    </div>
+                    <div class="subscribeItem">
+                        <input type="text" placeholder="E-mail..">
+                    </div>
+                    <button class="subscribeBtn">Subscribe</button>
+                </div>
+                <div class="asideSearch">
+                        <span class="search-container">
+                                <input type="text" placeholder="Search..">
+                                <button><i class="fa fa-search"></i></button>
+                        </span>
+                </div>
+                <div class="tagcloud01">
+                    <ul>
+                        <li><a href="#">tag</a></li>
+                        <li><a href="#">tag</a></li>
+                        <li><a href="#">tag</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                        <li><a href="#">tag</a></li>
+                        <li><a href="#">tag</a></li>
+                        <li><a href="#">tag</a></li>
+                        <li><a href="#">tag</a></li>
+                        <li><a href="#">tag</a></li>
+                        <li><a href="#">consectetur adipisicing elit</a></li>
+                    </ul>
+                </div>
+                <div class="comment">
+                    <img src="https://admin.heenatours.in/app/webroot/images/random-avatar6.jpg" alt="img">
+                    <div>
+                        <div class="commentName">
+                           <b>Jack Richer</b>
+                        </div>
+                        <div class="commentText">
+                                <span>Совершенно неясно, зачем же гальванизировать <i class="fas fa-ellipsis-h"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                        <img src="https://i.kym-cdn.com/photos/images/newsfeed/000/916/872/942.jpg" alt="img">
+                        <div>
+                            <div class="commentName">
+                                <b>Bob Dilan</b>
+                            </div>
+                            <div class="commentText">
+                                    <span>Я думаю, причина в том, что она уже <i class="fas fa-ellipsis-h"></i></span>
+                            </div>
+                        </div>
+                </div>
+                <div class="comment">
+                        <img src="http://i.imgsafe.org/3ca439c.jpg" alt="img">
+                        <div>
+                            <div class="commentName">
+                                <b>Sam Winters</b>
+                            </div>
+                            <div class="commentText">
+                                    <span>Опечатка в тексте. Символ «A» представляется <i class="fas fa-ellipsis-h"></i></span>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            
+            <div class="copyrite"><p><i class="fas fa-copyright"></i>Binary Studio Academy - 2018</p></div>
+            <div class="socialIcons-wrapper">
+                    <ul class="socialIcons">
+                        <li><a href="#"><i class="fab fa-facebook"></i> </a></li>
+                        <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                    </ul>
+                </div>
+        </footer>
+        
+
+    </body>
+</html>
